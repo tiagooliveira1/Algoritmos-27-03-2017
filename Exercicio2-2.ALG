@@ -11,8 +11,19 @@ Var
 n: inteiro
 
 Inicio
+   { Exibe os pares }
+   escreval("Números pares")
    para n de 10 ate 100 passo 1 faca
         se n mod 2 = 0 entao
+                escreva(n)
+        fimse
+
+   fimpara
+   escreval("")
+   { Exibe os ímpares }
+   escreval("Números ímpares")
+   para n de 10 ate 100 passo 1 faca
+        se n mod 2 <> 0 entao
                 escreva(n)
         fimse
 
