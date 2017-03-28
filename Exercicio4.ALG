@@ -7,12 +7,12 @@ Algoritmo "semnome"
 Var
 // Seção de Declarações das variáveis 
 
-resultado: inteiro
+resultado: real
 n: inteiro
 
 
-anterior_1: inteiro
-anterior_2: inteiro
+anterior_1: real
+anterior_2: real
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
    para n de 0 ate 50 passo 1 faca
